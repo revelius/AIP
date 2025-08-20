@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* Clearfix */
+.newclearfix:after{clear:both; content:' '; display:block; font-size:0; height:0; line-height:0; visibility:hidden; width:0}
+* html .newclearfix,:first-child+html .newclearfix{zoom:1}
+
+/* a */
+.neat_qna a,
+.neat_qna a > *{text-decoration:none; -webkit-transition:background-color .1s ease, border .1s ease, color .1s ease, opacity .1s ease-in-out; -moz-transition:background-color .1s ease, border .1s ease, color .1s ease, opacity .1s ease-in-out; -ms-transition:background-color .1s ease, border .1s ease, color .1s ease, opacity .1s ease-in-out; -o-transition:background-color .1s ease, border .1s ease, color .1s ease, opacity .1s ease-in-out; transition:background-color .1s ease, border .1s ease, color .1s ease, opacity .1s ease-in-out}
+.neat_qna a:hover{text-decoration:none}
+.neat_qna img,
+.neat_qna iframe{vertical-align:middle}
+
+/*--[ WIDGET ]--*/
+.neat_qna{margin:0; padding:0; list-style:none}
+.neat_qna li{margin:0; padding:6px 0; border-bottom:1px dotted #e6e6e6; line-height:1.2}
+.neat_qna li:first-child{padding-top:0}
+.neat_qna li:last-child{border-bottom:0}
+.neat_qna li p{margin:0; padding:0; font-size:12px; color:#666}
+.neat_qna li .listTitle{float:left; padding:4px 0 3px}
+.neat_qna li .listCount{float:right; margin-right:1px}
+.neat_qna li a{position:relative; display:block; padding-left:10px; font-family:돋움,sans-serif; color:#666; cursor:pointer}
+.neat_qna li a:hover p.listTitle,
+.neat_qna li a:focus p.listTitle{font-weight:bold; letter-spacing:-1px; color:#ea5859}
+.neat_qna li .title_arrow{position:absolute; top:7px; left:0; display:block; border-left:3px solid #ea5859; border-top:3px solid transparent; border-bottom:3px solid transparent; height:0; width:0;}
+.neat_qna li .num{display:inline-block; padding:4px 8px 3px 8px; border:1px solid #c8c8c8; font-size:11px; color:#808080}
+
+@media screen and (max-width:479px) {
+	.neat_qna li p{font-size:13px}
+}
+
+.x #zonePageContent .neat_qna{margin:0; padding:0}
+.x #zonePageContent .neat_qna li{margin:0; padding:6px 0; line-height:1.2}
+.x #zonePageContent .neat_qna li:first-child{padding-top:0}
+.x #zonePageContent .neat_qna li:last-child{border-bottom:0}

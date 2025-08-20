@@ -1,0 +1,21 @@
+@charset "utf-8";
+.neat_more{width:100%}
+.neat_more .moreTitle{margin-bottom:12px; padding-bottom:4px; border-bottom:5px solid #f2f2f2}
+.neat_more .moreTitle h4{float:left; margin:0 18px 0 0; padding:2px 0 3px; line-height:1.2; font-family:'Nanum Gothic','Malgun Gothic',돋움,sans-serif; font-size:16px}
+.neat_more .moreTitle h4 a{color:#ea5859}
+.neat_more .moreTitle a.more{float:left; display:inline-block; padding:4px 8px 3px; background-color:#f8f8f8; border:1px solid #c8c8c8; line-height:1.2; font-family:돋움,sans-serif; font-size:11px; color:#808080; outline:none}
+.neat_more .moreTitle a.more:hover{background-color:#fff; border-color:#bbb; color:#666}
+
+.neat_more .moreArrow{float:right}
+.neat_more .moreArrow span{display:inline-block; margin-left:1px}
+.neat_more .moreArrow a{display:block; width:20px; height:20px; background-color:#fafafa; background-image:url(more_arrow.png); background-repeat:no-repeat; border:1px solid #e5e5e5; outline:none}
+.neat_more .moreArrow .bx-prev{background-position:7px 5px}
+.neat_more .moreArrow .bx-next{background-position:-17px 5px}
+.neat_more .moreArrow a:hover{background-color:#ea5859; background-image:url(more_arrow_h.png); border-color:#ea5859}
+.neat_more .moreArrow .disabled,
+.neat_more .moreArrow .disabled:hover{background-color:#fafafa !important; background-image:url(more_arrow.png) !important; border:1px solid #e5e5e5 !important}
+
+@media screen and (max-width:767px){
+	.neat_more .moreArrow .disabled,
+	.neat_more .moreArrow .disabled:hover{background-color:#fff !important; background-image:url(more_arrow_h.png) !important; border:1px solid #fff !important}
+}

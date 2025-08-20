@@ -1,0 +1,124 @@
+/*-----[Layout]-----*/
+.colorset3 #logo .neat-logo span.logobg,
+.colorset3 #logo .neat-logo span.logodot,
+.colorset3 .neat-top{background-color:#1d74ab}
+.colorset3 #topSearch .inputText{border-color:#1d74ab}
+.colorset3 #topSearch .submit{background:#1d74ab}
+.colorset3 #sf-menu ul,
+.colorset3 #sitemap-list{border-bottom-color:#1d74ab}
+.colorset3 #sf-menu ul li a:hover,
+.colorset3 #sf-menu ul li a:focus,
+.colorset3 #sf-menu ul li.sfHover a.nav2nd,
+.colorset3 #sf-menu ul li.current2 a.nav2nd,
+.colorset3 #sf-menu ul li.current3 a.nav3rd,
+.colorset3 .sf-arrows ul li > .sf-with-ul:focus:after,
+.colorset3 .sf-arrows ul li:hover > .sf-with-ul:after,
+.colorset3 .sf-arrows ul li.sfHover > .sf-with-ul:after,
+.colorset3 #sitemap-list li a.nav1st,
+.colorset3 #sitemap-list ul li a:hover,
+.colorset3 #sitemap-list ul li a:focus,
+.colorset3 #sitemap-list ul li.current2 a.nav2nd,
+.colorset3 #sitemap-list ul li.current3 a.nav3rd,
+.colorset3 #side_menu a.sm3rd-trigger.active:after,
+.colorset3 #side_menu li.current3 a.sm3rd:after,
+.colorset3 #side_menu a:hover,
+.colorset3 #side_menu a:focus,
+.colorset3 #side_menu li.current2 a.sm2nd,
+.colorset3 #side_menu li.current3 a.sm3rd,
+.colorset3 #bottom_nav li a:hover,
+.colorset3 #bottom_nav li a:focus{color:#1d74ab}
+.colorset3 #content{border-top-color:#1d74ab}
+.colorset3 #sTop:hover,
+.colorset3 #sTop:focus{background-color:#1d74ab}
+.colorset3 .neat_btn{background:#1d74ab}
+
+/*-----[Mobile Navigation]-----*/
+.colorset3 #TouchMe,
+.colorset3 #mobile-sign{background-color:#1d74ab}
+.colorset3 #mobile-nav li.current1 a.nav1st{background-color:#1d74ab}
+.colorset3 #mobile-nav li.current2 a.nav2nd,
+.colorset3 #mobile-nav li.current3 a.nav3rd{color:#1d74ab}
+
+/*-----[Widget Styles]-----*/
+/* More */
+.colorset3 .neat_more .moreTitle h4 a{color:#1d74ab}
+.colorset3 .neat_more .moreArrow a:hover{background-color:#1d74ab; border-color:#1d74ab}
+/* Side */
+.colorset3 .neat_side .title_square{background-color:#1d74ab}
+/* Slider */
+.colorset3 .neat_slider_ws .sliderTitle h4{color:#1d74ab}
+.colorset3 .neat_slider_ws .sliderArrow a{background-color:#1d74ab}
+
+/*-----[Widgets]-----*/
+/* Login */
+.colorset3 .account input[type="submit"]{background:#1d74ab}
+.colorset3 .account .signup,
+.colorset3 .account .signup i,
+.colorset3 .loginfo .profile_top a.nickname,
+.colorset3 .loginfo .profile_top a.nickname i{color:#1d74ab}
+
+/* Category */
+.colorset3 .neat_category ul li a:hover,
+.colorset3 .neat_category ul li a:focus,
+.colorset3 .neat_category ul li a.selected{background-color:#1d74ab; border-color:#1d74ab}
+
+/* List */
+.colorset3 .neat_list li a:hover p.listTitle,
+.colorset3 .neat_list li a:focus p.listTitle{color:#1d74ab}
+.colorset3 .neat_list li .title_arrow{border-left-color:#1d74ab}
+.colorset3 .neat_list li .num{color:#1d74ab}
+
+/* News */
+.colorset3 .neat_news_ticker .date{color:#1d74ab}
+.colorset3 .neat_news_ticker .news_arrow{border-left-color:#1d74ab}
+
+/* QNA */
+.colorset3 .neat_qna li a:hover p.listTitle,
+.colorset3 .neat_qna li a:focus p.listTitle{color:#1d74ab}
+.colorset3 .neat_qna li .title_arrow{border-left-color:#1d74ab}
+
+/* Slider */
+.colorset3 .neatSlider .bx-wrapper .bx-pager.bx-default-pager a.active{background-color:#1d74ab}
+
+/* Webzine Top H */
+.colorset3 .neat_webzineTopH li .category,
+.colorset3 .neat_webzineTopH li span i,
+.colorset3 .neat_webzineTopH li .date,
+.colorset3 .neat_webzineTopH li a:hover h3.title,
+.colorset3 .neat_webzineTopH li a:focus h3.title{color:#1d74ab}
+
+/* Webzine Top V */
+.colorset3 .neat_webzineTopV li .category,
+.colorset3 .neat_webzineTopV li span i,
+.colorset3 .neat_webzineTopV li .date,
+.colorset3 .neat_webzineTopV li a:hover h3.title,
+.colorset3 .neat_webzineTopV li a:focus h3.title{color:#1d74ab}
+
+/* Side Event */
+.colorset3 .titleList li a .replyNum{color:#1d74ab}
+.colorset3 .titleList li .title_arrow{border-left-color:#1d74ab}
+.colorset3 .titleList li.active a{color:#1d74ab}
+
+/* Side List */
+.colorset3 .neat_side_list li .replynum{color:#1d74ab}
+.colorset3 .neat_side_list li .title_arrow{border-left-color:#1d74ab}
+
+/* Side Popular */
+.colorset3 .tabs_items li a.tabs_active{background-color:#1d74ab; border-color:#1d74ab}
+.colorset3 .tabs_inner li p.text_date,
+.colorset3 .tabs_inner li a:hover p.text_title,
+.colorset3 .tabs_inner li a:focus p.text_title{color:#1d74ab}
+
+/*-----[Modules]-----*/
+/* XE */
+.colorset3 .xc .nav-tabs>.active>a:hover{background-color:#1d74ab; border-color:#1d74ab}
+
+/* Member */
+.colorset3 .xm .nav-tabs>li>a:hover,
+.colorset3 .xc .nav-tabs>li>a:hover,
+.colorset3 .xm .nav-tabs>.active>a,
+.colorset3 .xm .nav-tabs>.active>a:hover,
+.colorset3 .xc .nav-tabs>.active>a,
+.colorset3 .xc .nav-tabs>.active>a:hover{background-color:#1d74ab; border-color:#1d74ab}
+
+/* Contact */

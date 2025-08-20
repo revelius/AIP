@@ -1,0 +1,60 @@
+@charset "utf-8";
+.account,.loginfo{margin:0; padding:0; font-family:돋움,sans-serif}
+.account a,.loginfo a{text-decoration:none; color:#808080}
+.account a:hover,.loginfo a:hover{text-decoration:none; color:#3a3a3a}
+.account>fieldset{margin:0; padding:0; border:0}
+.account .idpw{float:left}
+.account .idpw label{position:absolute; top:9px; left:5px; display:block; margin:0 0 5px 0; color:#a8a8a8}
+.account .id{margin-bottom:2px; *margin-bottom:1px}
+.account .id,
+.account .pw{position:relative; background:#fff}
+.account input[type="text"],
+.account input[type="email"],
+.account input[type="password"]{position:relative; top:0; left:0; width:142px; *width:138px; height:13px; *height:12px; background:none; padding:7px 5px 8px 5px; margin:0; border:1px solid #d6d6d6; border-radius:0; -webkit-appearance:none; font-family:돋움,sans-serif; font-size:12px; line-height:1.2; outline:none; z-index:2}
+.account input[type="text"]:focus,.account input[type="text"]:active,
+.account input[type="email"]:focus,.account input[type="email"]:active,
+.account input[type="password"]:focus,.account input[type="password"]:active{background:#fff !important}
+.account input[type="submit"]{width:62px; height:62px; margin:0 0 0 4px; background:#ea5859; border:0; border-radius:0; line-height:62px; padding:0; cursor:pointer; font-family:'Nanum Gothic','Malgun Gothic',돋움,sans-serif; font-weight:700; color:#fff; -webkit-appearance:none; -moz-transition:opacity .1s ease-in-out; -ms-transition:opacity .1s ease-in-out; -o-transition:opacity .1s ease-in-out}
+.account input[type="submit"]:hover,
+.account input[type="submit"]:focus{filter:alpha(opacity=90); opacity:.9}
+
+/* Help, SignUp */
+.account .helpSign{margin-bottom:5px}
+.account .helpSign a{line-height:1.6; font-size:11px}
+.account .signup{float:left; position:relative; padding-left:15px; color:#ea5859}
+.account .help{float:right; color:#808080}
+.account .signup i{position:absolute; display:block; top:0; left:0; font-size:14px; color:#ea5859}
+.account .signup:hover,
+.account .help:hover{color:#3a3a3a}
+
+/* Keep */
+.account .keep{margin:5px 0 0 0; padding:0; font-size:11px}
+.account .keep input[type="checkbox"]{float:left; width:11px; height:11px; margin:0 3px 0 0; padding:0}
+.account .keep label{float:left; cursor:pointer; line-height:1.2; color:#808080}
+.account .acWarning{display:none; color:#666; line-height:1.4}
+
+/* Message */
+.account .message{margin:5px 0}
+
+/*-----[ LOGIN INFO ]-----*/
+/* Profile Top */
+.loginfo .profile_top{margin-bottom:5px; text-align:right}
+.loginfo .profile_top a{padding:3px 5px; line-height:1.2}
+.loginfo .profile_top a.nickname{float:left; position:relative; padding:3px 0 0 15px; font-family:굴림; font-weight:bold; letter-spacing:-1px; font-size:12px; color:#ea5859}
+.loginfo .profile_top a.nickname i{position:absolute; display:block; top:2px; left:0; font-size:14px; color:#ea5859}
+.loginfo .profile_top a.adminuser{float:left; font-size:12px}
+.loginfo .profile_top a.adminuser:before{display:inline-block; content:"|"; margin-right:2px; font-size:11px; color:#aaa}
+.loginfo .profile_top a.logout{float:right; border:1px solid #e2e2e2; font-size:11px}
+.loginfo .profile_top a.logout:hover{border-color:#b6b6b6}
+
+/* Profile Image */
+.loginfo .profilei{float:left; margin-right:15px}
+.loginfo .profilei img{display:block; width:56px; height:56px; border:1px solid #d3d3d3}
+.loginfo .profilei .profile_noi{display:block; width:56px; height:56px; background:#e8e8e8 url(profile_noi.png) no-repeat center center; border:1px solid #d3d3d3}
+
+/* Profile Link */
+.loginfo .info{float:left}
+.loginfo .info p{margin:0; padding:0}
+.loginfo .info a{display:inline-block; padding:2px 0; line-height:1.2; font-size:11px}
+.loginfo .info a.leaf{position:relative; padding:11px 0 0 15px}
+.loginfo .info a i{position:absolute; display:block; top:11px; left:0; font-size:12px; color:#8ed51f}

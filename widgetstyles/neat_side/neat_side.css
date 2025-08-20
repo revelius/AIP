@@ -1,0 +1,12 @@
+@charset "utf-8";
+.neat_side{width:100%}
+.neat_side h4{position:relative; margin:0 0 6px 0; padding:0 0 8px 12px; border-bottom:1px solid #eaeaea; line-height:1.3; font-family:'Nanum Gothic','Malgun Gothic',돋움,sans-serif; font-size:13px; font-weight:700; color:#3a3a3a}
+.neat_side .title_square{position:absolute; top:4px; left:0; display:block; width:6px; height:6px; background-color:#ea5859}
+.neat_side h4 a{color:#3a3a3a}
+.neat_side h4 a i{display:none}
+.neat_side h4 a:hover i,
+.neat_side h4 a:focus i{display:inline-block}
+
+@media screen and (max-width:991px){
+	.neat_side{margin-bottom:60px}
+}

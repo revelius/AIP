@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* Clearfix */
+.newclearfix:after{clear:both; content:' '; display:block; font-size:0; height:0; line-height:0; visibility:hidden; width:0}
+* html .newclearfix,:first-child+html .newclearfix{zoom:1}
+
+/* a */
+.neat_list a,
+.neat_list a > *{text-decoration:none; -webkit-transition:background-color .1s ease, border .1s ease, color .1s ease, opacity .1s ease-in-out; -moz-transition:background-color .1s ease, border .1s ease, color .1s ease, opacity .1s ease-in-out; -ms-transition:background-color .1s ease, border .1s ease, color .1s ease, opacity .1s ease-in-out; -o-transition:background-color .1s ease, border .1s ease, color .1s ease, opacity .1s ease-in-out; transition:background-color .1s ease, border .1s ease, color .1s ease, opacity .1s ease-in-out}
+.neat_list a:hover{text-decoration:none}
+.neat_list img,
+.neat_list iframe{vertical-align:middle}
+
+/*--[ WIDGET ]--*/
+.neat_list{margin:0; padding:0; list-style:none}
+.neat_list li{margin:0; padding:11px 0 9px 0; border-bottom:1px dotted #e6e6e6; line-height:1.2}
+.neat_list li:first-child{padding-top:0}
+.neat_list li:last-child{border-bottom:0}
+.neat_list li p{margin:0; padding:0; font-size:12px; color:#666}
+.neat_list li .listTitle{float:left}
+.neat_list li .listCount{float:right}
+.neat_list li .listTitle .date{font-size:11px; color:#a8a8a8}
+.neat_list li a{position:relative; display:block; padding-left:10px; font-family:돋움,sans-serif; color:#666; cursor:pointer}
+.neat_list li a:hover p.listTitle,
+.neat_list li a:focus p.listTitle{font-weight:bold; letter-spacing:-1px; color:#ea5859}
+.neat_list li .title_arrow{position:absolute; top:3px; left:0; display:block; border-left:3px solid #ea5859; border-top:3px solid transparent; border-bottom:3px solid transparent; height:0; width:0;}
+.neat_list li .num{display:inline-block; margin-left:8px; margin-right:2px; color:#ea5859}
+.neat_list li .num i{color:#a8a8a8}
+
+@media screen and (max-width:479px) {
+	.neat_list li p{font-size:13px}
+}
+
+.x #zonePageContent .neat_list{margin:0; padding:0}
+.x #zonePageContent .neat_list li{margin:0; padding:11px 0 9px 0px; line-height:1.2}
+.x #zonePageContent .neat_list li:first-child{padding-top:0}
+.x #zonePageContent .neat_list li:last-child{border-bottom:0}

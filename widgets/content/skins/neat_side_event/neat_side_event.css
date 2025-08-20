@@ -1,0 +1,15 @@
+@charset "utf-8";
+.smart_news-container{margin:0; padding:14px 13px; background-color:#f8f8f8; border:1px solid #efefef; border-bottom-color:#d9d9d9}
+.titleList{margin:0; padding:0; list-style:none}
+.titleList li{margin:0; padding:2px 0; line-height:1.2; font-family:돋움,sans-serif; font-size:11px}
+.titleList li a{position:relative; display:block; padding-left:13px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; color:#808080; outline:none}
+.titleList li a .replyNum{font-style:normal; font-size:11px; color:#ea5859}
+.titleList li .title_arrow{position:absolute; top:3px; left:3px; display:block; border-left:3px solid #ea5859; border-top:3px solid transparent; border-bottom:3px solid transparent; height:0; width:0;}
+.titleList li.active a{font-weight:bold; letter-spacing:-1px; color:#ea5859}
+.thumbList{margin:0 0 9px 0; padding:0; list-style:none; overflow:hidden}
+.thumbList .news_thumb{position:relative; border:1px solid #ededed}
+.thumbList .news_thumb span.noimage{position:absolute; padding-top:40px; display:block; background-color:#f8f8f8; text-align:center; font-family:'Nanum Gothic','Malgun Gothic',돋움,sans-serif; font-weight:700; font-size:20px; color:#dedede}
+
+.x #zonePageContent .titleList{margin:0; padding:0}
+.x #zonePageContent .titleList li{margin:0; padding:2px 0; line-height:1.2}
+.x #zonePageContent .thumbList{margin:0 0 9px 0; padding:0}
