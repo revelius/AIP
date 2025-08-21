@@ -24,7 +24,8 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 .skipNav a:hover,.skipNav a:active,.skipNav a:focus{position:relative; height:auto; width:auto}
 
 /*--[ Top Navigation ]--*/
-.neat-top{position:relative; height:50px; background-color:#ea5859; z-index:2}
+/*주조색변경*/
+.neat-top{position:relative; height:50px; background-color:#ffe6cb; z-index:2}
 
 /*--[ Header ]--*/
 .neat-header{position:relative; background-color:#fff; z-index:1}
@@ -71,7 +72,8 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 #sf-menu a:hover{text-decoration:none}
 /* 1st */
 #sf-menu > li{float:left}
-#sf-menu a.nav1st{height:16px; padding:15px 22px 19px; text-align:center; font-size:14px; color:#fff; border-right:1px solid rgba(0,0,0,.16); box-shadow:1px 0 0 0 rgba(255,255,255,.16)}
+/*문자조색변경*/
+#sf-menu a.nav1st{height:16px; padding:15px 22px 19px; text-align:center; font-size:14px; color:#f98b86; border-right:1px solid rgba(0,0,0,.16); box-shadow:1px 0 0 0 rgba(255,255,255,.16)}
 #sf-menu li.navHome a.nav1st{height:24px; padding-top:11px; padding-bottom:15px; border-left:0; color:#fff}
 #sf-menu li.navHome a.nav1st i{font-size:24px; color:#fff}
 #sf-menu a.nav1st:hover,
@@ -79,7 +81,7 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 #sf-menu li:hover a.nav1st,
 #sf-menu li.current1 a.nav1st{background:rgba(0,0,0,.16); -moz-transition:none; -o-transition:none; -ms-transition:none; -webkit-transition:none; transition:none}
 /* 2nd */
-#sf-menu ul{display:none; position:absolute; top:100%; left:0; z-index:99; min-width:12em; *width:12em; padding-top:8px; padding-bottom:6px; background:#f7f7f7; border-bottom:3px solid #ea5859; box-shadow:2px 2px 6px rgba(0,0,0,.06)}
+#sf-menu ul{display:none; position:absolute; top:100%; left:0; z-index:99; min-width:12em; width:12em; padding-top:8px; padding-bottom:6px; background:#8ddcd7; border-bottom:3px solid #ea5859; box-shadow:2px 2px 6px rgba(0,0,0,.06)}
 #sf-menu li:hover > ul,
 #sf-menu li.sfHover > ul{display:block}
 #sf-menu ul li a{padding:12px 24px; border-top:1px dotted #e4e4e4; color:#4c4c4c}
