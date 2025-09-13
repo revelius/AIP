@@ -15,7 +15,12 @@
 .neat_list li{margin:0; padding:11px 0 9px 0; border-bottom:1px dotted #e6e6e6; line-height:1.2}
 .neat_list li:first-child{padding-top:0}
 .neat_list li:last-child{border-bottom:0}
-.neat_list li p{margin:0; padding:0; font-size:12px; color:#666}
+.neat_list li p{
+	margin:0; 
+	padding:0; 
+	font-size:12px; 
+	color:#272828;
+}
 .neat_list li .listTitle{float:left}
 .neat_list li .listCount{float:right}
 .neat_list li .listTitle .date{font-size:11px; color:#a8a8a8}

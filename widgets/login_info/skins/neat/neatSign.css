@@ -14,7 +14,24 @@
 .account input[type="text"]:focus,.account input[type="text"]:active,
 .account input[type="email"]:focus,.account input[type="email"]:active,
 .account input[type="password"]:focus,.account input[type="password"]:active{background:#fff !important}
-.account input[type="submit"]{width:62px; height:62px; margin:0 0 0 4px; background:#ea5859; border:0; border-radius:0; line-height:62px; padding:0; cursor:pointer; font-family:'Nanum Gothic','Malgun Gothic',돋움,sans-serif; font-weight:700; color:#fff; -webkit-appearance:none; -moz-transition:opacity .1s ease-in-out; -ms-transition:opacity .1s ease-in-out; -o-transition:opacity .1s ease-in-out}
+.account input[type="submit"]{
+    width:62px; 
+    height:62px; 
+    margin:0 0 0 4px; 
+    background:#57b0e8; 
+    border:0; 
+    border-radius:0; 
+    line-height:62px; 
+    padding:0; 
+    cursor:pointer; 
+    font-family:'Nanum Gothic','Malgun Gothic',돋움,sans-serif; 
+    font-weight:700; 
+    color:#fff; 
+    -webkit-appearance:none; 
+    -moz-transition:opacity .1s ease-in-out; 
+    -ms-transition:opacity .1s ease-in-out; 
+    -o-transition:opacity .1s ease-in-out;
+}
 .account input[type="submit"]:hover,
 .account input[type="submit"]:focus{filter:alpha(opacity=90); opacity:.9}
 

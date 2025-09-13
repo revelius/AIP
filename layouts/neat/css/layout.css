@@ -25,7 +25,12 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 
 /*--[ Top Navigation ]--*/
 /*주조색변경*/
-.neat-top{position:relative; height:50px; background-color:#ffe6cb; z-index:2}
+.neat-top{
+	position:relative; 
+	height:50px; 
+	background-color:#57b0e8; 
+	z-index:2;
+}
 
 /*--[ Header ]--*/
 .neat-header{position:relative; background-color:#fff; z-index:1}
@@ -49,7 +54,26 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 #topSearch{margin:0; padding:0}
 #topSearch .searchOrder{display:none}
 #topSearch .inputText{float:left; width:266px; height:14px; margin:0 5px 0 0; padding:11px 0 11px 10px; border:3px solid #ea5859; background:#fff; line-height:1.3; font-size:13px; color:#959393; outline:none}
-#topSearch .submit{float:left; width:59px; height:42px; margin:0; padding:0; background:#ea5859; border:0; border-radius:0; font-family:'Nanum Gothic','Malgun Gothic',돋움,sans-serif; line-height:1.3; font-size:13px; color:#fff; outline:none; cursor:pointer; -webkit-appearance:none; -moz-transition:opacity .1s ease-in-out; -ms-transition:opacity .1s ease-in-out; -o-transition:opacity .1s ease-in-out}
+#topSearch .submit{
+	float:left; 
+	width:59px; 
+	height:42px; 
+	margin:0; 
+	padding:0; 
+	background:#57b0e8; 
+	border:0; 
+	border-radius:0; 
+	font-family:'Nanum Gothic','Malgun Gothic',돋움,sans-serif; 
+	line-height:1.3; 
+	font-size:13px; 
+	color:#fff; 
+	outline:none; 
+	cursor:pointer; 
+	-webkit-appearance:none; 
+	-moz-transition:opacity .1s ease-in-out; 
+	-ms-transition:opacity .1s ease-in-out; 
+	-o-transition:opacity .1s ease-in-out;
+}
 #topSearch .submit:hover,
 #topSearch .submit:focus{filter:alpha(opacity=90); opacity:.9}
 
@@ -71,10 +95,37 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 #sf-menu a{position:relative; display:block; zoom:1; white-space:nowrap; *white-space:normal; font-family:'Nanum Gothic','Malgun Gothic',돋움,sans-serif; font-size:12px; font-weight:700; text-decoration:none; outline:none}
 #sf-menu a:hover{text-decoration:none}
 /* 1st */
+/*==추가한 내용==*/
+#sf-menu li:first-child.navHome a.nav1st{
+	padding:0px;
+	border:0px solid black;
+}
+#sf-menu li:last-child a.nav1st{
+	border-right:0px solid black;
+}
+
+.neat_more .moreTitle a.more{
+	background-color:#e8ecef !important;
+}
+/*==추가한 내용 종료==*/
 #sf-menu > li{float:left}
 /*문자조색변경*/
-#sf-menu a.nav1st{height:16px; padding:15px 22px 19px; text-align:center; font-size:14px; color:#f98b86; border-right:1px solid rgba(0,0,0,.16); box-shadow:1px 0 0 0 rgba(255,255,255,.16)}
-#sf-menu li.navHome a.nav1st{height:24px; padding-top:11px; padding-bottom:15px; border-left:0; color:#fff}
+#sf-menu a.nav1st{
+	height:16px; 
+	padding:15px 22px 19px; 
+	text-align:center; 
+	font-size:14px; 
+	color:#ffffff; 
+	border-right:1px solid rgba(0,0,0,.16); 
+	box-shadow:1px 0 0 0 rgba(255,255,255,.16);
+}
+#sf-menu li.navHome a.nav1st{
+	height:24px; 
+	padding-top:11px; 
+	padding-bottom:15px; 
+	border-left:0; 
+	color:#fff
+}
 #sf-menu li.navHome a.nav1st i{font-size:24px; color:#fff}
 #sf-menu a.nav1st:hover,
 #sf-menu a.nav1st:focus,
@@ -163,7 +214,10 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 /*	CONTENT
 /* ---------------------------------------------------------------------- */
 /*--[ Content ]--*/
-#contents{background:#f7f7f7;/* z-index:98 */}
+#contents{
+	background:#e8ecef;
+	/* z-index:98 */
+}
 #content{float:left; width:980px; background:#fff; border-top:6px solid #ea5859}
 #content #content-header{margin:13px 0 5px 0; padding:0 20px}
 #content .content{padding:0px 10px}
@@ -230,7 +284,11 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 /* ---------------------------------------------------------------------- */
 /*	FOOTER
 /* ---------------------------------------------------------------------- */
-#footer-bottom{background:#2c2c2c; padding-top:16px; padding-bottom:16px}
+#footer-bottom{
+	background:#57b0e8; 
+	padding-top:16px; 
+	padding-bottom:16px;
+}
 
 /*--[ Copyright ]--*/
 #footer-bottom .copyright{margin:0; padding:0; font-family:Tahoma,Geneva,sans-serif,굴림; font-size:12px; color:#8c8c8c}
@@ -294,7 +352,9 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 	#mobile-nav-touch{display:block}
 
 	/*--[ HEADER ]--*/
-	.neat-top{height:auto}
+	.neat-top{
+		height:auto;
+	}
 	.banner_header{display:none}
 	.neat-header .login-header{display:none}
 
