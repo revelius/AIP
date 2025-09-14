@@ -142,7 +142,14 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 #sf-menu a.nav1st:hover,
 #sf-menu a.nav1st:focus,
 #sf-menu li:hover a.nav1st,
-#sf-menu li.current1 a.nav1st{background:rgba(0,0,0,.16); -moz-transition:none; -o-transition:none; -ms-transition:none; -webkit-transition:none; transition:none}
+#sf-menu li.current1 a.nav1st{
+	background:rgba(0,0,0,.16); 
+	-moz-transition:none; 
+	-o-transition:none; 
+	-ms-transition:none; 
+	-webkit-transition:none; 
+	transition:none;
+}
 /* 2nd */
 #sf-menu ul{
 	display:none; 
@@ -154,25 +161,30 @@ a, a:hover{text-decoration:none; color:#3a3a3a}
 	width:12em; 
 	padding-top:8px; 
 	padding-bottom:6px; 
-	background:#272828; 
+	background-color:#ffffff; 
 	border-bottom:0px solid #ea5859; 
 	box-shadow:2px 2px 6px rgba(0,0,0,.06);
 }
 #sf-menu li:hover > ul,
-#sf-menu li.sfHover > ul{display:block}
+#sf-menu li.sfHover > ul{
+	display:block;
+}
+#sf-menu li:hover > ul li:hover{
+	background-color:#e8ecef; 
+}
 #sf-menu ul li a{
 	padding:12px 24px; 
-	border-top:1px solid #e8ecef; 
-	color:#4c4c4c;
+	border-top:1px solid #3aa7cb; 
+	color:#272828;
 }
 #sf-menu ul li:first-child a.nav2nd{
-	border-top:1px solid #e8ecef;
+	border-top:1px solid #3aa7cb;
 }
 #sf-menu ul li a:hover,
 #sf-menu ul li a:focus,
 #sf-menu ul li.sfHover a.nav2nd,
 #sf-menu ul li.current2 a.nav2nd,
-#sf-menu ul li.current3 a.nav3rd{color:#ea5859}
+#sf-menu ul li.current3 a.nav3rd{color:#272828}
 /* 3rd */
 #sf-menu ul ul{top:0; left:100%; padding:0; border-bottom-width:2px; box-shadow:0px 0px 0px rgba(0,0,0,.06)}
 #sf-menu ul ul li a{border-top:1px solid #eee; border-right:1px solid #eee; border-left:1px solid #eee}
