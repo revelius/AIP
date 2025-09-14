@@ -83,7 +83,7 @@
 	width:232px;
 	padding:4px;
 	overflow-x:hidden;
-	background-color:#ea5859;
+	background-color: #57b0e8;
 }
 
 #mobile-sign .mobile-home{
@@ -190,11 +190,11 @@
 
 #mobile-nav a.nav2nd{
 	padding:16px 0 16px 16px;
-	background-color:#f4f4f4;
+	background-color:#e8ecef;
 	border-top:1px solid #dedede;
 	border-left:1px solid #dedede;
 	font-size:14px;
-	color:#666;
+	color:#272728;
 }
 
 #mobile-nav a.nav3rd{

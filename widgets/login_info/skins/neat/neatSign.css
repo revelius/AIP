@@ -38,7 +38,12 @@
 /* Help, SignUp */
 .account .helpSign{margin-bottom:5px}
 .account .helpSign a{line-height:1.6; font-size:11px}
-.account .signup{float:left; position:relative; padding-left:15px; color:#ea5859}
+.account .signup{
+    float:left; 
+    position:relative; 
+    padding-left:15px; 
+    color:#272728;
+}
 .account .help{float:right; color:#808080}
 .account .signup i{position:absolute; display:block; top:0; left:0; font-size:14px; color:#ea5859}
 .account .signup:hover,

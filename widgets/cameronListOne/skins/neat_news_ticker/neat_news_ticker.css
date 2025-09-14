@@ -10,7 +10,10 @@
 .neat_news_ticker a:hover{color:#d42d17}
 .neat_news_ticker .category{color:#888}
 .neat_news_ticker .author{font-weight:bold}
-.neat_news_ticker .date{font-family:Verdana; color:#ea5859}
+.neat_news_ticker .date{
+    font-family:Verdana; 
+    color:#57b0e8;
+}
 .neat_news_ticker .news_arrow{display:inline-block; border-left:9px solid #ea5859; border-top:5px solid transparent; border-bottom:5px solid transparent; height:0; width:0}
 
 .x #zonePageContent .neat_news_ticker{margin:0; padding:0}
